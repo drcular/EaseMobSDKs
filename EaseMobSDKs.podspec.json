@@ -1,0 +1,41 @@
+{
+  "name": "EaseMobSDKs",
+  "version": "2.1.1",
+  "license": "MIT",
+  "summary": "An Objective-C client for IM service updated 20141120",
+  "homepage": "https://github.com/drcular/EaseMobSDKs/",
+  "authors": {
+    "EaseMob Inc.": "drcular@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/drcular/EaseMobSDKs.git",
+    "tag": "2.1.1"
+  },
+  "source_files": "**",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "requires_arc": true,
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "MapKit",
+    "ImageIO",
+    "CoreLocation",
+    "Security",
+    "MobileCoreServices",
+    "SystemConfiguration",
+    "AddressBook",
+    "CFNetwork",
+    "CoreGraphics"
+  ],
+  "libraries": [
+    "iconv",
+    "xml2",
+    "z",
+    "resolv",
+    "stdc++"
+  ],
+  "resources": "EaseMobSDK/resources/EaseMob.bundle",
+  "vendored_libraries": "EaseMobSDK/lib/libEaseMobClientSDKLite.a"
+}
