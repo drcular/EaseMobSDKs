@@ -1,15 +1,15 @@
 {
   "name": "EaseMobSDKs",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "license": "MIT",
-  "summary": "An Objective-C client for IM service updated 20141120",
+  "summary": "An Objective-C client for IM service updated V2.1.2 2014-12-19",
   "homepage": "https://github.com/drcular/EaseMobSDKs/",
   "authors": {
     "EaseMob Inc.": "drcular@gmail.com"
   },
   "source": {
     "git": "https://github.com/drcular/EaseMobSDKs.git",
-    "tag": "2.1.1"
+    "tag": "2.1.2"
   },
   "source_files": "**",
   "platforms": {
@@ -30,6 +30,7 @@
     "CoreGraphics"
   ],
   "libraries": [
+    "sqlite3",
     "iconv",
     "xml2",
     "z",
